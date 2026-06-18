@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+._*
+script.txt
+
+# Local runtime data and large generated outputs
+data/
+outputs/
+log/
+tmp/
+*.tar.gz
+*.nvl
+*.tblastn.out
+done_ids.txt*
+failed_ids.txt*
+
+# MMseqs/antiSMASH scratch outputs
+mmseqs_tmp*/
+*.dbtype
+*.index
+*.lookup
